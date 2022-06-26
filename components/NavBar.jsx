@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const navItems = [
     {link: "/", title: "home"},
-    {link: "/product", title: "products"},
+    {link: "/products", title: "products"},
     {link: "/about", title: "about"},
     {link: "/contact", title: "contact"},
     {link: "/faq", title: "faq"},

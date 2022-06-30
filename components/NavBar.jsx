@@ -13,7 +13,7 @@ const navItems = [
 const NavBar = () => {
 
   return (
-    <div className='w-full flex items-center justify-center'>
+    <div className='w-full flex items-center justify-center bg-blue-500'>
         {navItems.map((nav, index) => (
             <NavItem key={index} nav={nav} />
         ))}

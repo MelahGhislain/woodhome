@@ -17,9 +17,9 @@ const Header = ({navBar = true}) => {
                 <TextWithIcon text="English" />
             </div>
         </div>
-        <div className='w-full flex justify-between px-24 items-center py-4 '>
+        <div className='w-full flex justify-between md:px-10 lg:px-24 items-center py-4 '>
            <div className="flex-none">Logo</div>
-           <div className='flex-auto mx-8'>
+           <div className='flex-auto mx-8 hidden md:inline'>
             <Search styles={'bg-teal-500'} />
            </div>
            <div className="flex-none flex items-center space-x-6">

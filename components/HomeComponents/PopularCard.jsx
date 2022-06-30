@@ -1,10 +1,10 @@
 import React from 'react'
 
-const PopularCard = ({width, height}) => {
+const PopularCard = ({width, height, data}) => {
   return (
     <div className={`flex flex-col border rounded overflow-hidden shadow transition-all duration-300 hover:scale-105 ${width || "w-[270px]"} ${height|| "h-[300px]"}`}>
         <div className='flex-auto w-full'>
-            <img src="/images/sofa/sofa1.jpeg" alt="" className='w-full h-full object-cover ' />
+            <img src={data.image} alt="" className='w-full h-full object-cover ' />
         </div>
         <div className="flex-non flex flex-col items-center py-4 px-2">
             <h6 className='text-gray-800'>Thorpe upherstard storage bed</h6>
